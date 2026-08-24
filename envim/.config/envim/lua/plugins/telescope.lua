@@ -10,6 +10,11 @@ return {
 
     keys = {
         {
+            '<leader>sc',
+            '<cmd>Telescope spell_suggest<cr>',
+            desc = 'Spell Check',
+        },
+        {
             '<leader>ff',
             '<cmd>Telescope find_files<cr>',
             desc = 'Telescope find files',
