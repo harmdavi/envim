@@ -9,6 +9,8 @@ return {
     version = "^19.0.0",
 
     opts = {
+      prompt_library = {
+      },
       interactions = {
         chat = {
           adapter = {
@@ -25,5 +27,10 @@ return {
         },
       },
     },
+
+vim.keymap.set({ "n", "v" }, "<Leader>at", "<cmd>CodeCompanionChat Toggle<cr>", { noremap = true, silent = true }),
+vim.keymap.set({ "n", "v" }, "<Leader>av", "<cmd>CodeCompanionChat Add<cr>", { noremap = true, silent = true }),
+vim.keymap.set({ "n", "v" }, "<Leader>aa", "<cmd>CodeCompanionActions<cr>", { noremap = true, silent = true }),
+vim.keymap.set("n", "<Leader>ap", function() require("codecompanion").prompt("explainCode") end, { noremap = true, silent = true })
   },
 }

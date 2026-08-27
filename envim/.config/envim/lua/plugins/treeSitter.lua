@@ -19,6 +19,7 @@ require'nvim-treesitter'.install {
 	'gitignore',
 	'vim',
 	'nix',
+	'yaml',
 }
 
 end
