@@ -27,3 +27,9 @@ vim.cmd("set wrap")
 vim.opt.clipboard = "unnamedplus"
 
 --vim.opt.thesaurus = vim.fn.expand("../resources/thesaurus/thesaurus.txt")
+
+-- For terminal transparency 
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" }) -- For non-current windows
+
+
