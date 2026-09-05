@@ -25,5 +25,6 @@
   "telescope-words.nvim": { "branch": "main", "commit": "295d51fe1e525fee18c0c164ad0ae5fb23273aa0" },
   "telescope.nvim": { "branch": "master", "commit": "5255aa27c422de944791318024167ad5d40aad20" },
   "vimtex": { "branch": "master", "commit": "2f279775e5b73743973bf2b013791f8f1673d5ac" },
-  "which-key.nvim": { "branch": "main", "commit": "3aab2147e74890957785941f0c1ad87d0a44c15a" }
+  "which-key.nvim": { "branch": "main", "commit": "3aab2147e74890957785941f0c1ad87d0a44c15a" },
+  "whisper.nvim": { "branch": "master", "commit": "43b9317c35d33cecb89cad6b9f581f136f26a22d" }
 }
